@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Road</title>
+  <link rel="stylesheet" href="../index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="../index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Homepage</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html">About me</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="../index.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="description">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col mt-md-5 mt-3">
+                  <h4>The design of road that connects villages Osek Hile - Madanaj in Gjakova's municipality</h4>
+                    <p>
+                      This road is located in municipality of Gjakova
+                      The road alignment, for most of its length, follows the existing road, except in certain cases where the technical road design standards do not allow it.
+                      The terrain through which the designed road alignment passes is hilly.
+                      Some of the main parameters of this road are given below:
+                    </p>
+                    <ul>
+                        <li>Maximum speed (km/h): 40;</li>
+                        <li>Maximum curvature radius (m): 1200;</li>
+                        <li>Minimum curvature radius (m): 20</li>
+                        <li>Maximum longitudinal slope (%): 9.63</li>
+                        <li>Minimum longitudinal slope (%): 0.69</li>
+                        <li>Superelevation (%): 2.50</li>
+                    </ul>
+                    <p>The road construction layers have been adopted as follows:</p>
+                    <ul>
+                        <li>Gravel 50 – 150 mm: t = 30 cm</li>
+                        <li>Gravel 0 – 63 mm: t = 20 cm</li>
+                        <li>Gravel 0 – 31.5 mm: t = 10 cm</li>
+                        <li>Asphalt BA 22 mm: t = 8 cm</li>
+                        <li>Asphalt AB 11 mm: t = 4 cm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid my-3">
+            <div class="row mt-3">
+                <div class="col">
+                    <img src="THESIS/SIT_ME_ORTOFOTO.jpg" alt="SIT_ME_ORTOFOTO" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <img src="THESIS/SIT_PA_ORTOFOTO.jpg" alt="SIT_PA_ORTOFOTO" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col" id="pk">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="THESIS/PK1.JPG" class="d-block w-100 img-fluid" alt="PK1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="THESIS/PK2.JPG" class="d-block w-100 img-fluid" alt="PK2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="THESIS/PK3.JPG" class="d-block w-100 img-fluid" alt="PK3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="THESIS/PK4.JPG" class="d-block w-100 img-fluid" alt="PK4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div> <!--Ketu perfundon carouseli-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+ 
+
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p class="mb-0">&copy; <span id="year"></span> Shpend Paçarizi. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="../index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
